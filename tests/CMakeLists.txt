@@ -11,7 +11,7 @@ FetchContent_MakeAvailable(googletest)
 
 # Add test source files
 set(TEST_SOURCES
-    Singleton_test.cpp
+    test.cpp
 )
 
 # Link GoogleTest to the tests
