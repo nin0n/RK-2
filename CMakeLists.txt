@@ -23,3 +23,5 @@ set(SOURCES
 add_executable(Visitor ${SOURCES})
 
 enable_testing()
+
+add_subdirectory(tests)
