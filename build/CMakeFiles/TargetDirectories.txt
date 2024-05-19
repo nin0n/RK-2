@@ -1,0 +1,4 @@
+/home/ninon/cpp_design_patterns/Patterns/Visitor/build/CMakeFiles/Visitor.dir
+/home/ninon/cpp_design_patterns/Patterns/Visitor/build/CMakeFiles/test.dir
+/home/ninon/cpp_design_patterns/Patterns/Visitor/build/CMakeFiles/edit_cache.dir
+/home/ninon/cpp_design_patterns/Patterns/Visitor/build/CMakeFiles/rebuild_cache.dir

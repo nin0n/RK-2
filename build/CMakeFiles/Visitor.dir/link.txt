@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Visitor.dir/Bookstore.cpp.o CMakeFiles/Visitor.dir/ConceptualExample.cpp.o CMakeFiles/Visitor.dir/MotivationDocumentHtmlMarkdown.cpp.o CMakeFiles/Visitor.dir/OnlineShop.cpp.o CMakeFiles/Visitor.dir/Program.cpp.o -o Visitor 
