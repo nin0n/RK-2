@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+add_subdirectory(tests)cmake_minimum_required(VERSION 3.10)
 
 # Project name
 project(Visitor)
@@ -23,3 +23,5 @@ set(SOURCES
 add_executable(Visitor ${SOURCES})
 
 enable_testing()
+
+add_subdirectory(tests)
