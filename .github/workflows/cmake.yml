@@ -32,7 +32,7 @@ jobs:
       run: |
 	cmake --build . --config $BUILD_TYPE
 	mkdir artifacts
-      mv build/Visitor artifacts
+      	mv build/Visitor artifacts
 
     - name: Test
       working-directory: ${{runner.workspace}}/build
