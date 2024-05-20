@@ -29,6 +29,8 @@ jobs:
       working-directory: ${{runner.workspace}}/build
       shell: bash
       run: cmake --build . --config $BUILD_TYPE
+	mkdir artifacts
+	mv build/Visitor artifacts
 
     - name: Test
       working-directory: ${{runner.workspace}}/build
