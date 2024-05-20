@@ -27,12 +27,12 @@ jobs:
 
     - name: Build
       run: |
-        cmake --build build --config $BUILD_TYPE
+        cmake --build ${{runner.workspace}}/build --config $BUILD_TYPE
         mkdir artifacts
-        mv build/Visitor artifacts
+        mv ${{runner.workspace}}/build/Visitor ./artifacts
 
     - name: Test
-      working-directory: ${{runner.workspace}}/build
+      working-directory: ${{runner.workspace}}/artifacts
       shell: bash
       run: ctest -C $BUILD_TYPE
 
